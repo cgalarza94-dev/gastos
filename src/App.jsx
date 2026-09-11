@@ -1,8 +1,11 @@
 function App() {
+  const nombre = "Carlos Galarza";
+  const fecha = new Date().toLocaleDateString();
+
   return (
     <div>
-      <h1>Mis gastos</h1>
-      <p>Todavía no hay nada</p>
+      <h1>Hola {nombre}</h1>
+      <p>Hoy es {fecha}</p>
     </div>
   );
 }
